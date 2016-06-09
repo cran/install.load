@@ -22,8 +22,7 @@
 #'
 #'
 #'
-#' @seealso \code{\link[needs]{needs}}, \code{\link[easypackages]{install_packages}},
-#'   \code{\link[utils]{installed.packages}}, \code{\link[utils]{install.packages}}
+#' @seealso \code{\link[needs]{needs}}, \code{\link[easypackages]{install_packages}}, \code{\link[pacman]{p_load}},  \code{\link[utils]{installed.packages}}, \code{\link[utils]{install.packages}}
 #'
 #'
 #'
@@ -32,6 +31,7 @@
 #' library(install.load)
 #' # This will install, if not already installed, and load the package(s)
 #' install_load("chron")
+
 #' install_load("chron", "data.table", "dataRetrieval", "EGRET", "dplyr")
 #' }
 #'
@@ -56,7 +56,7 @@ install_load <- function (package1, ...) {
     else {
 
       install.packages(package, repos =
-        c("https://cran.revolutionanalytics.com/", "http://owi.usgs.gov/R/"),
+        c("https://cloud.r-project.org", "http://owi.usgs.gov/R/"),
         dependencies = NA, type = getOption("pkgType"))
       do.call("library", list(package))
     }

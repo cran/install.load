@@ -1,7 +1,9 @@
-3bbe4cff6f49463b749add817f06c522 *DESCRIPTION
+6a0cc39ed06fe4b0f6ae6cdeacd764b7 *DESCRIPTION
 05657d13cd10e6dfbc063719589c5ff9 *LICENSE.note
-02665edf0cd036d074420c02be2ecd22 *NAMESPACE
-24f8b2e60a0315f035376635af4d9c4e *NEWS.md
-6e29e37de3ad5da5ee079b276766e18a *R/install_load.R
-e0580beb83ddd509fa4467f2fe8cc452 *README.md
-f3d66ce2de172614e892276b0fcf95e4 *man/install_load.Rd
+a0ddc30d6baca55153e135bde55f940c *NAMESPACE
+66911b9a649e347cb88b54ed8ee4e59d *NEWS.md
+102b819e5a344f7201deb1d5b2d0a07f *R/install_load.R
+778252c4cc7935ddfbcef64da68a9b9c *R/load_package.R
+6f1cda4cfd96834c0afbdd4bfa22bfef *README.md
+220756f6b920c56d4c69fa0c54b59f26 *man/install_load.Rd
+7ab24a55455cf943fb8016ad6a7dbfd3 *man/load_package.Rd

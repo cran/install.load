@@ -42,7 +42,6 @@ install_load("chron", "data.table", "dataRetrieval", "EGRET", "dplyr")
 maloneypatr, Irucka Embry
 }
 \seealso{
-\code{\link[needs]{needs}}, \code{\link[easypackages]{install_packages}},
-  \code{\link[utils]{installed.packages}}, \code{\link[utils]{install.packages}}
+\code{\link[needs]{needs}}, \code{\link[easypackages]{install_packages}}, \code{\link[pacman]{p_load}},  \code{\link[utils]{installed.packages}}, \code{\link[utils]{install.packages}}
 }
 
