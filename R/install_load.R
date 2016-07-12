@@ -21,8 +21,11 @@
 #'	\url{http://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library}.
 #'
 #'
+#' @encoding UTF-8
 #'
-#' @seealso \code{\link[needs]{needs}}, \code{\link[easypackages]{install_packages}}, \code{\link[pacman]{p_load}},  \code{\link[utils]{installed.packages}}, \code{\link[utils]{install.packages}}
+#' @seealso \code{\link{load_package}} to only load packages, \code{\link[needs]{needs}},
+#' \code{\link[easypackages]{install_packages}}, \code{\link[pacman]{p_load}}, \code{\link[utils]{installed.packages}},
+#' \code{\link[utils]{install.packages}}
 #'
 #'
 #'
@@ -50,7 +53,7 @@ install_load <- function (package1, ...) {
 
     # if package is installed locally, load
   if (package %in% rownames(installed.packages()))
-      do.call("library", list(package))
+      do.call(library, list(package))
 
     # if package is not installed locally, download and then load
     else {
@@ -58,7 +61,7 @@ install_load <- function (package1, ...) {
       install.packages(package, repos =
         c("https://cloud.r-project.org", "http://owi.usgs.gov/R/"),
         dependencies = NA, type = getOption("pkgType"))
-      do.call("library", list(package))
+      do.call(library, list(package))
     }
   }
 }

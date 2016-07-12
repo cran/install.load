@@ -1,3 +1,10 @@
+# install.load 1.2.1
+
+* Added `try` to load_package function to continue loading packages even if one or more packages is/are not already installed. This removes the need to make sure that all packages are already installed prior to loading through load_package.
+* Updated README.md file to include information on both functions
+* Updated DESCRIPTION to include information on both functions
+
+
 # install.load 1.1.1
 
 * Added load_package function to load packages that are already known to be installed
