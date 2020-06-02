@@ -1,0 +1,11 @@
+The original function contributed by maloneypatr to Stack Overflow on February 28 2014 (https://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library) was contributed under the CC BY-SA 3.0 License, but Stackoverflow has changed the license of user contributions to CC BY-SA 4.0 which Creative Commons has made "one-way compatible with GPLv3"
+
+Irucka Embry has decided to license this R package under the GPL-3.
+
+References:
+
+Stack Overflow, "user contributions licensed under cc by-sa 4.0 with attribution required. rev 2020.2.5.35976", https://stackoverflow.com/.
+
+Creative Commons, "Compatible Licenses", https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses/.
+
+Creative Commons, "CC BY-SA 4.0 now one-way compatible with GPLv3: The declaration increases interoperability of the commons for games, hardware designs, and more", by mike, October 8, 2015, https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/.

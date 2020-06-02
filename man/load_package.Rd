@@ -8,7 +8,7 @@
 \enumerate{
    \item Check if R package is installed then load library answered by
 maloneypatr is the source for the original function. See
-\url{http://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library}.
+\url{https://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library}.
    \item Error Handling in R By Nina Zumel, October 9, 2012, R-Bloggers. See
    \url{http://www.r-bloggers.com/error-handling-in-r/}.
 }
@@ -29,7 +29,7 @@ Loads the listed packages only
 }
 \examples{
 \dontrun{
-library(install.load)
+library("install.load")
 # This will only load the package(s)
 load_package("chron")
 
@@ -37,12 +37,10 @@ load_package("chron", "data.table", "dataRetrieval", "EGRET", "dplyr")
 }
 
 
-
-}
-\author{
-maloneypatr, Irucka Embry
 }
 \seealso{
 \code{\link{install_load}} if you are wanting to install and load packages
 }
-
+\author{
+maloneypatr, Irucka Embry
+}

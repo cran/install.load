@@ -12,7 +12,7 @@ install.packages("install.load")
 
 # Examples
 ```R
-library(install.load)
+library("install.load")
 
 # This will install, if not already installed, and load the package(s)
 
@@ -22,10 +22,12 @@ install_load("chron", "data.table", "dataRetrieval", "EGRET", "dplyr")
 
 install_load("data.table", "ggplot2", "directlabels", "ggthemes", "scales", "GGally", "vioplot", "beanplot")
 
-# Please note that the various package dependency(ies) will also be installed, if not already installed, in the process of installing, if not already installed, the packages in each instance
+# Please note that any package dependency(ies) will also be installed, if not already installed, during the installation process for each package
 
 
-# This will only load the package(s)
+
+
+# This will only load the package(s) assuming that it(they) has(have) already been installed
 
 load_package("chron")
 

@@ -1,6 +1,14 @@
+# install.load 1.2.3
+
+* Included all suggested, similar packages in the package description rather than including them as Suggested packages
+* Added `try` to install_load function to continue installing packages even if one or more package(s) is/are not found
+* Added `fastmatch`, `checkmate`, and `assertthat` to imported packages in DESCRIPTION
+* Added `testthat` to Suggested packages (minimal code testing)
+
+
 # install.load 1.2.1
 
-* Added `try` to load_package function to continue loading packages even if one or more packages is/are not already installed. This removes the need to make sure that all packages are already installed prior to loading through load_package.
+* Added `try` to load_package function to continue loading packages even if one or more package(s) is/are not already installed. This removes the need to make sure that all packages are already installed prior to loading through load_package.
 * Updated README.md file to include information on both functions
 * Updated DESCRIPTION to include information on both functions
 

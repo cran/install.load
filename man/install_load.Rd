@@ -5,9 +5,13 @@
 \alias{install_load}
 \title{Check, Install and Load CRAN & USGS GRAN Packages}
 \source{
-Check if R package is installed then load library answered by
+\enumerate{
+   \item Check if R package is installed then load library answered by
 maloneypatr is the source for the original function. See
-\url{http://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library}.
+\url{https://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library}.
+   \item Error Handling in R By Nina Zumel, October 9, 2012, R-Bloggers. See
+   \url{http://www.r-bloggers.com/error-handling-in-r/}.
+}
 }
 \usage{
 install_load(package1, ...)
@@ -31,7 +35,7 @@ Repository. Lastly, the chosen package(s) is/are loaded.
 }
 \examples{
 \dontrun{
-library(install.load)
+library("install.load")
 # This will install, if not already installed, and load the package(s)
 install_load("chron")
 install_load("chron", "data.table", "dataRetrieval", "EGRET", "dplyr")
@@ -39,12 +43,10 @@ install_load("chron", "data.table", "dataRetrieval", "EGRET", "dplyr")
 
 
 }
+\seealso{
+\code{\link{load_package}} to only load packages, \code{\link[utils]{installed.packages}},
+\code{\link[utils]{install.packages}}
+}
 \author{
 maloneypatr, Irucka Embry
 }
-\seealso{
-\code{\link{load_package}} to only load packages, \code{\link[needs]{needs}},
-\code{\link[easypackages]{install_packages}}, \code{\link[pacman]{p_load}}, \code{\link[utils]{installed.packages}},
-\code{\link[utils]{install.packages}}
-}
-
