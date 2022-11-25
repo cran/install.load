@@ -1,3 +1,8 @@
+# install.load 1.2.4
+
+* Changed all import statements to importFrom statements after an issue was filed by Toby Dylan Hocking for my `iemisc` package about `data.table` and `zoo` conflicts
+
+
 # install.load 1.2.3
 
 * Included all suggested, similar packages in the package description rather than including them as Suggested packages

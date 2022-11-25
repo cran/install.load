@@ -9,8 +9,8 @@
    \item Check if R package is installed then load library answered by
 maloneypatr is the source for the original function. See
 \url{https://stackoverflow.com/questions/15155814/check-if-r-package-is-installed-then-load-library}.
-   \item Error Handling in R By Nina Zumel, October 9, 2012, R-Bloggers. See
-   \url{http://www.r-bloggers.com/error-handling-in-r/}.
+   \item Error Handling in R By Nina Zumel, October 9, 2012, Win Vector LLC. See
+   \url{https://win-vector.com/2012/10/09/error-handling-in-r/}.
 }
 }
 \usage{

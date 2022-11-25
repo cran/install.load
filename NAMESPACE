@@ -2,7 +2,8 @@
 
 export(install_load)
 export(load_package)
-import(fastmatch)
-import(utils)
 importFrom(assertthat,assert_that)
 importFrom(checkmate,qtest)
+importFrom(fastmatch,"%fin%")
+importFrom(utils,install.packages)
+importFrom(utils,installed.packages)
