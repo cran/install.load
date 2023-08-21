@@ -1,0 +1,6 @@
+bibentry(bibtype = "Misc",
+title = "Check, Install and Load CRAN Packages",
+author = c(person("maloneypatr", role = c("aut", "cre")),
+    person("Irucka", "Embry", role = c("aut", "ctb"))),
+year = "2015-2023", url = "https://gitlab.com/iembry/install.load"
+)

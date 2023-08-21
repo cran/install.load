@@ -1,4 +1,15 @@
-# install.load 1.2.4
+# install.load 1.2.5 (21 August 2023)
+
+* Received an e-mail issue from Kurt Hornik on 19 August 2023 regarding the use of "@docType package" which is no longer valid. Modified the install.load.R file to reflect the requested change.
+* Added minimal code testing
+* Moved from `testthat` to `tinytest` for testing & removed `testthat` from Suggests
+* Added `spelling` to Suggests
+* Removed text related to the USGS GRAN Repository
+* Revised the README
+* Added a CITATION file
+
+
+# install.load 1.2.4 (25 November 2022)
 
 * Changed all import statements to importFrom statements after an issue was filed by Toby Dylan Hocking for my `iemisc` package about `data.table` and `zoo` conflicts
 

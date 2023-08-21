@@ -1,11 +1,11 @@
-#' Check, Install and Load CRAN & USGS GRAN Packages
+#' Check, Install and Load CRAN Packages
 #'
 #' Checks the local R library(ies) to see if the required package(s)
 #'	is/are installed or not. If the package(s) is/are not installed,
 #'	then the package(s) will be installed along with the required
 #'	dependency(ies). This function pulls source or binary packages
-#'	from the Revolution Analytics CRAN mirror and/or the USGS GRAN
-#'	Repository. Lastly, the chosen package(s) is/are loaded.
+#'	from the 0-Cloud CRAN Repository. Lastly, the chosen
+#'	package(s) is/are loaded.
 #'
 #' @param package1 R package.
 #' @param ... Any additional R packages.
@@ -68,8 +68,7 @@ assert_that(qtest(packages, "S"), msg = "One of the provided package(s) is(are) 
     # if package is not installed locally, download and then load
     else {
 
-      install.packages(package, repos =
-        c("https://cloud.r-project.org", "http://owi.usgs.gov/R/"),
+      install.packages(package, repos = "https://cloud.r-project.org",
         dependencies = NA, type = getOption("pkgType"))
       try(do.call(library, list(package))) # Source 2
     }
